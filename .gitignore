@@ -1,0 +1,17 @@
+# Ignore watcher batch files (auto-run scripts)
+**/w.bat
+**/watch.bat
+**/watcher.bat
+**/filewatch.bat
+
+# Ignore compiled executable binaries from GCC or other builds
+**/*.exe
+**/*.out
+**/*.obj
+**/*.o
+
+# Optional: ignore build and output folders
+build/
+dist/
+bin/
+out/
