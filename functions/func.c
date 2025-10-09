@@ -1,0 +1,12 @@
+#include <stdio.h>
+
+int add(int x, int y)
+{
+    return x + y;
+}
+
+int main()
+{
+    printf("%d", add(32, 23));
+    return 0;
+}
